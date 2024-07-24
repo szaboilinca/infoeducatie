@@ -16,11 +16,11 @@ public class ProfileTestAuto extends LinearOpMode {
         robot = new Robot(this, false);
 
         AutoManager a1 = new AutoManager(this)
-                .AddPoint(new Vector2d(1,0))
+                //.AddPoint(new Vector2d(1,0))
                 .AddPoint(new Vector2d(0, 1))
-                .AddPoint(new Vector2d(0, 3))
-                .AddPoint(new Vector2d(1, 3))
-                .AddPoint(new Vector2d(1, 2))
+                //.AddPoint(new Vector2d(0, 3))
+                //.AddPoint(new Vector2d(1, 3))
+                //.AddPoint(new Vector2d(1, 2))
                 .Build();
 
         waitForStart();

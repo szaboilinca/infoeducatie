@@ -13,7 +13,7 @@ import com.qualcomm.robotcore.hardware.TouchSensor;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 
 @TeleOp
-        (name = "Diff Swerve TeleOp", group = "TeleOp")
+        (name = "Diff Swerve TeleOp2", group = "TeleOp2")
 public class TeleOpExpansion extends LinearOpMode {
 
     DcMotorEx LeftSlider,RightSlider;//extension motion
